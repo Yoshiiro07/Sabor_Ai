@@ -9,4 +9,14 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected title = 'SaborAi';
+  
+  toggleMobileMenu() {
+    const menu = document.querySelector('.navbar-menu');
+    const toggle = document.querySelector('.navbar-toggle');
+    
+    if (menu && toggle) {
+      menu.classList.toggle('active');
+      toggle.classList.toggle('active');
+    }
+  }
 }

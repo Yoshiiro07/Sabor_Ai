@@ -1,6 +1,5 @@
-
-
-
+<!DOCTYPE html>
+<html lang="en">
 <nav class="navbar">
   <div class="navbar-container">
     <div class="navbar-brand">
@@ -21,7 +20,7 @@
           <a href="#" class="nav-link">Trabalhe Conosco</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Contato</a>
+          <a routerLink="/contact" class="nav-link">Contato</a>
         </li>
       </ul>
     </div>
@@ -34,5 +33,11 @@
 </nav>
 
 <main class="main-content">
+  <div class="main-figure">
+    <div class="search-box">
+      <input type="text" class="search-input" placeholder="Digite sua busca...">
+      <button class="search-button">Buscar</button>
+    </div>
+  </div>
   <router-outlet />
 </main>

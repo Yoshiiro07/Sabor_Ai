@@ -338,11 +338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projetos\\Sabor_NET\\Sabor_NET.csproj",
+      "projectUniqueName": "D:\\projetos\\Sabor_Ai\\Sabor_NET\\Sabor_NET.csproj",
       "projectName": "Sabor_NET",
-      "projectPath": "D:\\projetos\\Sabor_NET\\Sabor_NET.csproj",
+      "projectPath": "D:\\projetos\\Sabor_Ai\\Sabor_NET\\Sabor_NET.csproj",
       "packagesPath": "C:\\Users\\Gui\\.nuget\\packages\\",
-      "outputPath": "D:\\projetos\\Sabor_NET\\obj\\",
+      "outputPath": "D:\\projetos\\Sabor_Ai\\Sabor_NET\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

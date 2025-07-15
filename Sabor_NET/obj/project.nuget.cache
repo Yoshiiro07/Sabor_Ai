@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kgJlRrfN6Tc=",
+  "dgSpecHash": "JBBB9yxHboU=",
   "success": true,
-  "projectFilePath": "D:\\projetos\\Sabor_NET\\Sabor_NET.csproj",
+  "projectFilePath": "D:\\projetos\\Sabor_Ai\\Sabor_NET\\Sabor_NET.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gui\\.nuget\\packages\\microsoft.data.sqlite\\9.0.6\\microsoft.data.sqlite.9.0.6.nupkg.sha512",
     "C:\\Users\\Gui\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.6\\microsoft.data.sqlite.core.9.0.6.nupkg.sha512",

@@ -6,7 +6,8 @@
 /* Navbar Styles */
 .navbar {
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-bottom: 2px solid #ddd;
   position: fixed;
   top: 0;
   left: 0;
@@ -333,13 +334,24 @@
 }
 
 /* Cards Container */
+.cards-section {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.cards-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 30px 0;
+  text-align: left;
+}
+
 .cards-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 1200px;
-  margin: 50px auto;
-  padding: 0 20px;
   gap: 20px;
 }
 
@@ -363,6 +375,25 @@
   height: 200px;
   object-fit: cover;
   display: block;
+}
+
+.card-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 8px 0;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  line-height: 1.4;
 }
 
 .card-button {
